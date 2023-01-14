@@ -1,6 +1,6 @@
 //
-//  trialApp.swift
-//  trial
+//  expensetrackerApp.swift
+//  expensetracker
 //
 //  Created by Kushal Goel on 13/01/23.
 //
