@@ -17,6 +17,18 @@ struct RecentTransactionList: View {
                     .bold()
                 
                 Spacer()
+                
+                // MARK: Header Link
+                NavigationLink {
+                    TransactionList()
+                    
+                } label: {
+                    HStack(spacing: 4) {
+                        Text("See All")
+                        Image(systemName: "chevron.right")
+                    }
+                    .foregroundColor(Color.text)
+                }
             }
             .padding(.top)
             
