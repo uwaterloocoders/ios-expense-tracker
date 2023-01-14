@@ -40,6 +40,10 @@ struct ContentView: View {
                     }
                     
                     
+                    
+                    
+                    // MARK: Transaction List
+                    RecentTransactionList()
                 }
                 .padding()
                 .frame( maxWidth: .infinity)
